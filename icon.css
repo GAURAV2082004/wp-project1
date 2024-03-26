@@ -1,0 +1,112 @@
+/* Style for social media icons */
+.fa-brands {
+    color: #3b5998; /* Facebook blue */
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .fa-solid {
+    color: #db4437; /* Google red */
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  /* Style for Google Maps iframe */
+  iframe {
+    margin-top: 20px;
+  }
+
+  /* Container for social media icons */
+.social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 90px;
+  }
+  
+  /* Style for social media icons */
+  .social-icons-container a {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  /* Style for Google Maps iframe */
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-container iframe {
+    margin-top: 20px;
+  }
+
+  /* Container for social media icons */
+.container {
+    background-color: #007bff; /* Blue background color */
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons-container a {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  /* Style for Google Maps iframe */
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-container iframe {
+    margin-top: 20px;
+  }
+  
+  /* Location */
+  .location {
+    text-align: center;
+    padding: 20px;
+    color: #070404; /* White text color */
+  }
+  
+ /* Set background color for the body */
+body {
+    background-color: #add8e6; /* Light blue background color */
+  }
+  
+  /* Container for social media icons */
+  .container {
+    background-color: #add8e6; /* Light blue background color */
+  }
+  
+  .social-icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .social-icons-container a {
+    margin: 0 10px; /* Adjust spacing between icons */
+  }
+  
+  /* Style for Google Maps iframe */
+  .map-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .map-container iframe {
+    margin-top: 20px;
+  }
+  
+  /* Location */
+  .location {
+    text-align: center;
+    padding: 20px;
+    color: #000; /* Black text color */
+  }
+  

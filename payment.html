@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Electric Vehicle Parts Payment</title>
+  <link rel="stylesheet" href="payment.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Electric Vehicle Parts Payment</h1>
+    <p>Please choose a payment method:</p>
+    
+    <div class="payment-options">
+      <div class="payment-option">
+        <input type="radio" id="Card" name="paymentMethod" checked>
+        <label for="Card"> Card</label>
+      </div>
+      <div class="payment-option">
+        <input type="radio" id="upi" name="paymentMethod">
+        <label for="upi">UPI</label>
+      </div>
+    </div>
+    
+    <button class="buy-button" onclick="redirectToPayment()">Buy Now</button>
+  </div>
+
+  <script>
+    function redirectToPayment() {
+      const paymentMethod = document.querySelector('input[name="paymentMethod"]:checked').id;
+      if (paymentMethod === "Card") {
+        window.location.href = "card.html";
+      } else if (paymentMethod === "upi") {
+        window.location.href = "upi.html";
+      }
+    }
+  </script>
+</body>
+</html>
